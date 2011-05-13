@@ -1,0 +1,115 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+background-image:url(img/background.jpg);
+
+}
+
+/* DESIGN DU SITE */
+
+#container
+{
+width:960px;
+margin:0 auto;
+border-left:1px solid #666;
+border-right:1px solid #666;
+
+margin-top:-20px;
+height:100%!important;
+}
+
+#header 
+{
+background-image:url(img/header.gif);
+height:177px;
+}
+
+#content
+{
+background-image:url(img/pattern.gif);
+min-height: 74%;
+margin-top:-21px;
+}
+
+/* AFFICHAGE DU CONTENU */
+
+#navbar 
+{
+padding-top:122px;
+color:#FFF;
+}
+
+#navbar ul, #navbar li
+{
+display:inline;
+margin-left:20px;
+}
+
+#navbar:first-child
+{
+margin-left:-30px;
+}
+
+#navbar a 
+{
+font-weight:bold;
+font-size:1.4em;
+color:#FFF;
+text-transform:uppercase;
+font-family: 'Special Elite', arial, serif;
+text-decoration:none;
+}
+
+#navbar a:hover
+{
+color:#000;
+}
+
+#box1
+{
+background-image:url(img/box.png);
+background-repeat:repeat-x;
+background-position:top; 
+background-color:#FFCC00;
+margin-left:50px;
+width:400px;
+height:340px;
+  -webkit-transform: rotate(-3deg);
+
+
+}
+
+#box1 h1 
+{
+padding-top:60px;
+margin-left:20px;
+font-family: 'Special Elite', arial, serif;
+font-size:1.5em;
+
+}
+
+#box1 ul, #box1 li
+{
+list-style-type:none;
+padding-top:5px;
+padding-bottom:5px;
+  -webkit-transform: rotate(-3deg);
+
+
+}
+
+#box1 a 
+{
+color:#830105;
+font-family: 'Special Elite', arial, serif;
+text-decoration:none;
+margin:20px;
+
+
+}
+
+#box1 a:hover
+{
+color:#000;
+font-weight:bold;}
